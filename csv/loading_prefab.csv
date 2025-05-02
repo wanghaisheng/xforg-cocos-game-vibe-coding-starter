@@ -1,0 +1,13 @@
+节点名,父节点,类型,组件,资源,属性,备注
+LoadingView,,Node,,,"{width:1080,height:1920}",加载页根节点
+Background,LoadingView,Sprite,,background.png,,整体背景
+Logo,LoadingView,Sprite,,logo.png,,游戏Logo
+Panda,LoadingView,Sprite,,panda.png,,熊猫形象
+ProgressBar,LoadingView,Node,,,"{layout:'horizontal'}",进度条容器
+ProgressBar_Bg,ProgressBar,Sprite,,progressbar_bg.png,,进度条背景
+ProgressBar_Fill,ProgressBar,Sprite,,progressbar_fill.png,,进度条填充
+TipLabel,LoadingView,Label,,,"{fontSize:24,align:'center'}",加载提示文本
+TipsArea,LoadingView,Node,,,"{layout:'horizontal'}",小贴士区域
+TipsArea_Bg,TipsArea,Sprite,,tipsarea_bg.png,,小贴士区域背景
+TipsArea_Icon,TipsArea,Sprite,,tipsarea_icon.png,,小贴士前缀图标
+装饰_竹叶,LoadingView,Sprite,,decor_leaf.png,,装饰元素 

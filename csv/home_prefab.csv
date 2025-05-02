@@ -1,0 +1,15 @@
+节点名,父节点,类型,组件,资源,属性,备注
+HomeView,,Node,,,"{width:1080,height:1920}",主界面根节点
+Background,HomeView,Sprite,,home_bg.png,,主界面背景
+TopBar,HomeView,Node,,,"{layout:'horizontal'}",顶部货币栏
+CoinIcon,TopBar,Sprite,,coin_icon.png,,元宝图标
+CoinLabel,TopBar,Label,,,"{fontSize:28}",元宝数值文本
+PowerIcon,TopBar,Sprite,,power_icon.png,,体力图标
+PowerLabel,TopBar,Label,,,"{fontSize:28}",体力数值文本
+StartButton,HomeView,Button,Button,start_btn.png,"{width:320,height:100}",开始悟境按钮
+SettingBtn,HomeView,Button,Button,setting_btn.png,"{width:80,height:80}",设置按钮
+ShopBtn,HomeView,Button,Button,shop_btn.png,"{width:80,height:80}",商店按钮
+SignBtn,HomeView,Button,Button,sign_btn.png,"{width:80,height:80}",签到按钮
+AchievementBtn,HomeView,Button,Button,achievement_btn.png,"{width:80,height:80}",成就按钮
+Panda,HomeView,Sprite,,panda_home.png,,熊猫形象
+Welcome,HomeView,Label,,,"{fontSize:32,align:'center'}",欢迎语文本 

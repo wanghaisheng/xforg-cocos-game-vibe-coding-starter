@@ -1,0 +1,16 @@
+节点名,父节点,类型,组件,资源,属性,备注
+DefeatView,,Node,,,"{width:1920,height:1080}",结算页根节点
+BgMask,DefeatView,Sprite,,defeat_bg.png,"{opacity:180}",全屏半透明背景
+Panel,DefeatView,Node,,,"{layout:'vertical'}",主内容面板
+Title,Panel,Label,,defeat_title.png,"{fontSize:64,align:'center'}",失败/再接再厉标题
+PandaAnim,Panel,Prefab,Spine,panda_defeat.skel/panda_defeat.png,,熊猫失落动画
+ScoreInfo,Panel,Node,,,"{layout:'vertical'}",分数与能量统计区
+ScoreIcon,ScoreInfo,Sprite,,score_icon.png,,分数图标
+ScoreLabel,ScoreInfo,Label,,,"{fontSize:32}",分数字
+EnergyIcon,ScoreInfo,Sprite,,energy_icon.png,,能量条图标
+EnergyLabel,ScoreInfo,Label,,,"{fontSize:32}",五行能量统计
+ReasonBg,Panel,Sprite,,reason_bg.png,,失败原因底图
+ReasonLabel,Panel,Label,,,"{fontSize:28,align:'center'}",失败原因文本
+BtnRetry,Panel,Button,Button,btn_retry.png,"{width:200,height:80}",重试按钮
+BtnBack,Panel,Button,Button,btn_back.png,"{width:200,height:80}",返回主页/地图按钮
+BtnContinue,Panel,Button,Button,btn_continue.png,"{width:200,height:80}",续关按钮（可选） 
