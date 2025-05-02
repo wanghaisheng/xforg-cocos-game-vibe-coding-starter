@@ -20,5 +20,8 @@
     "pkg:remove": "node ./extensions/pkg remove",
     "pkg:update": "node ./extensions/pkg update"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "msw": "^2.7.5"
+  }
 }

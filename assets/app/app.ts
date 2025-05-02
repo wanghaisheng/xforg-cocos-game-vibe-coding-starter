@@ -31,3 +31,9 @@ if (!EDITOR || DEV) {
     cccInited && game.once(Game.EVENT_ENGINE_INITED, function () { cccInited(app); });
     appInited && app.once(App.EventType.EVENT_APPINIT_FINISHED, function () { appInited(app); });
 }
+
+if (process.env.NODE_ENV === 'development') {
+  import('../../mocks/browser').then(({ worker }) => {
+    worker.start();
+  });
+}
